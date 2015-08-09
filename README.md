@@ -2,7 +2,8 @@
 Vim snippets for UltiSnips with basic javascript mocha block using modern ES6 syntax (right now a fat arrow `() => {}`)
 
 ## Snippets
-* `desc` - **desc**ribe
+* `desc` - **desc**ribe with filebasename as description
+* `describe` - describe with verbosive description
 * `it` - it
 * `bee` - **be**fore**E**ach
 * `afe` - **af**ter**E**ach
