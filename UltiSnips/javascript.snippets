@@ -1,5 +1,11 @@
 snippet desc "Mocha describe"
-describe("${1:Describe}", () => {
+describe("`!p snip.rv = fn.split(os.extsep)[0]`", () => {
+	$0
+});
+endsnippet
+
+snippet describe "Mocha describe verbose"
+describe("${1:`!p snip.rv = fn.split(os.extsep)[0]`}", () => {
 	$0
 });
 endsnippet
