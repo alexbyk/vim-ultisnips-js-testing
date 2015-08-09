@@ -2,12 +2,12 @@
 Vim snippets for UltiSnips with basic javascript mocha block using modern ES6 syntax (right now a fat arrow `() => {}`)
 
 ## Snippets
-* desc `describe`
-* it
-* bee `beforeEach`
-* afe `afterEach`
-* be
-* af
+* `desc` - **desc**ribe
+* `it` - it
+* `bee` - **be**fore**E**ach
+* `afe` - **af**ter**E**ach
+* `before` - before
+* `after` - after
 
 ## Installation
 Using Vundle:
@@ -15,6 +15,5 @@ Using Vundle:
 " install UltiSnips
 Plugin 'SirVer/ultisnips'
 "let g:UltiSnipsExpandTrigger="<C-J>" "(optional) CTRL-J instead of TAB to avoid conflicts with YCM
-Plugin 'honza/vim-snippets.git' " (optional)
 Plugin 'alexbyk/vim-ultisnips-mocha'
 ```
