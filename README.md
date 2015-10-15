@@ -10,6 +10,10 @@ Vim snippets for UltiSnips with basic javascript mocha block using modern ES6 sy
 * `before` - before
 * `after` - after
 
+## Assert
+* `aeq` - **a**ssert.**eq**ual
+* `adeq` - **a**ssert.**d**eep**Eq**ual
+
 ## Installation
 Using Vundle:
 ```
