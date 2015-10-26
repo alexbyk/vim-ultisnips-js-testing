@@ -13,6 +13,9 @@ Vim snippets for UltiSnips with basic javascript mocha block using modern ES6 sy
 ## Assert
 * `aeq` - **a**ssert.**eq**ual
 * `adeq` - **a**ssert.**d**eep**Eq**ual
+* `afalse` - **a**ssert.is**False**
+* `atrue` - **a**ssert.is**True**
+* `athr` - **a**ssert.**Thr**ows
 
 ## Installation
 Using Vundle:
