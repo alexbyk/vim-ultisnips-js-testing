@@ -1,45 +1,59 @@
-snippet desc "Mocha assert  describe"
+snippet desc "describe"
 describe('`!p snip.rv = fn.split(os.extsep)[0]`', () => {
 	$0
 });
 endsnippet
 
-snippet describe "Mocha assert  describe verbose"
+snippet describe "describe verbose"
 describe('${1:`!p snip.rv = fn.split(os.extsep)[0]`}', () => {
 	$0
 });
 endsnippet
 
-snippet it "Mocha assert  it"
+snippet it "it"
 it('${1:It}', () => {
 	$0
 });
 endsnippet
 
-snippet bee "Mocha assert  beforeEach"
+snippet bee "beforeEach"
 beforeEach(() => {
 	$0
 });
 endsnippet
 
-snippet afe "Mocha assert  afterEach"
+snippet afe "afterEach"
 afterEach(() => {
 	$0
 });
 endsnippet
 
-snippet before "Mocha assert  before"
+snippet before "before"
 before(() => {
 	$0
 });
 endsnippet
 
-snippet after "Mocha assert  after"
+snippet after "after"
 after(() => {
 	$0
 });
 endsnippet
 
+
+# expect
+
+snippet ebe "expect(x).toBe(y)"
+expect($1).toBe($2);
+endsnippet
+
+snippet eeq "expect(x).toEqual(y)"
+expect($1).toEqual($2);
+endsnippet
+
+snippet ethre "expect(x).toThrowError(y)"
+expect($1).toThrowError($2);
+endsnippet
 
 # assert
 snippet aeq "assert.equal"

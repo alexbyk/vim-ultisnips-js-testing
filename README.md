@@ -1,5 +1,5 @@
-# vim-ultisnips-mocha
-Vim snippets for UltiSnips with basic javascript mocha block using modern ES6 syntax (right now a fat arrow `() => {}`)
+# vim-ultisnips-js-testing
+Vim snippets for UltiSnips with basic javascript testing syntax (mocha + jasmine) using modern ES6 syntax (right now a fat arrow `() => {}`)
 
 ## Snippets
 * `desc` - **desc**ribe with filebasename as description
@@ -9,6 +9,12 @@ Vim snippets for UltiSnips with basic javascript mocha block using modern ES6 sy
 * `afe` - **af**ter**E**ach
 * `before` - before
 * `after` - after
+
+## Expect
+
+* `ebe` - **e**xpect(x).to**Be**(y)
+* `eeq` - **e**xpect(x).to**Eq**ual(y)
+* `ethre` - **e**xpect(x).to**Thr*ow**E**rror(y)
 
 ## Assert
 * `aeq` - **a**ssert.**eq**ual
