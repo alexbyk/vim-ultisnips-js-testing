@@ -1,40 +1,40 @@
-snippet desc "Mocha describe"
-describe("`!p snip.rv = fn.split(os.extsep)[0]`", () => {
+snippet desc "Mocha assert  describe"
+describe('`!p snip.rv = fn.split(os.extsep)[0]`', () => {
 	$0
 });
 endsnippet
 
-snippet describe "Mocha describe verbose"
-describe("${1:`!p snip.rv = fn.split(os.extsep)[0]`}", () => {
+snippet describe "Mocha assert  describe verbose"
+describe('${1:`!p snip.rv = fn.split(os.extsep)[0]`}', () => {
 	$0
 });
 endsnippet
 
-snippet it "Mocha it"
-it("${1:It}", () => {
+snippet it "Mocha assert  it"
+it('${1:It}', () => {
 	$0
 });
 endsnippet
 
-snippet bee "Mocha beforeEach"
+snippet bee "Mocha assert  beforeEach"
 beforeEach(() => {
 	$0
 });
 endsnippet
 
-snippet afe "Mocha afterEach"
+snippet afe "Mocha assert  afterEach"
 afterEach(() => {
 	$0
 });
 endsnippet
 
-snippet before "Mocha before"
+snippet before "Mocha assert  before"
 before(() => {
 	$0
 });
 endsnippet
 
-snippet after "Mocha after"
+snippet after "Mocha assert  after"
 after(() => {
 	$0
 });
