@@ -52,7 +52,15 @@ expect($1).toEqual($2);
 endsnippet
 
 snippet ethre "expect(x).toThrowError(y)"
-expect($1).toThrowError($2);
+expect(() => $1).toThrowError($2);
+endsnippet
+
+snippet etruthy "expect(x).toBeTruthy(y)"
+expect($1).toBeTruthy($2);
+endsnippet
+
+snippet efalsy "expect(x).toBeFalsy(y)"
+expect($1).toBeFalsy($2);
 endsnippet
 
 # assert
